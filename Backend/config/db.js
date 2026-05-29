@@ -17,7 +17,6 @@ const pool = mysql.createPool({
     }
 });
 
-
 const createTableQuery = `
   CREATE TABLE IF NOT EXISTS github_profiles (
     id INT AUTO_INCREMENT PRIMARY KEY,
