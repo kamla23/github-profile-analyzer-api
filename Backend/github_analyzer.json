@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "GitHub Profile Analyzer",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Profile APIs",
+      "item": [
+        {
+          "name": "Analyze Profile",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/profiles/defunkt",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "profiles", "defunkt"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Profile",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/profiles",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "profiles"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Single Profile",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:5000/api/profiles/defunkt",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "5000",
+              "path": ["api", "profiles", "defunkt"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
