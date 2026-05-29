@@ -1,4 +1,3 @@
-# github-profile-analyzer-api
 
 # GitHub Profile Analyzer API
 
